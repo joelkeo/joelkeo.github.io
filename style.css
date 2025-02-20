@@ -1,0 +1,49 @@
+:root {
+  --main-color: rgb(255, 128, 251);
+  --n1: rgb(125, 50, 121);
+  --p1: rgb(145, 79, 156);
+}
+
+body {
+    font-family: Monaco, monospace;
+    background-color: var(--main-color);
+    color: rgb(156, 34, 152);
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: var(--n1);
+  text-decoration-thickness: 4px;
+  font-size: 130px;
+  color: var(--p1);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom:5px;
+  display: inline;
+}
+
+.main-line {
+  display:block;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.arrow {
+  color: var(--main-color);
+}
+
+.main-line:hover {
+  color: rgb(255, 186, 247) !important;
+}
+
+.main-line:hover .arrow {
+  color: rgb(255, 186, 247); /* Visible on hover */
+}
+
+.main-stuff {
+  margin-top: 240px;
+}
