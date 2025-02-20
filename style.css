@@ -26,6 +26,12 @@ h2 {
   display: inline;
 }
 
+a {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: inline;
+}
 .main-line {
   display:block;
   margin-top:0;
