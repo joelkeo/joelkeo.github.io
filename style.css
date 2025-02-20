@@ -10,7 +10,7 @@ body {
     color: rgb(156, 34, 152);
 }
 
-h1 {
+.title {
   text-decoration: underline;
   text-decoration-color: var(--n1);
   text-decoration-thickness: 4px;
@@ -19,21 +19,16 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom:5px;
-  display: inline;
-}
-
-a {
+.main-page-main-stuff h2, a {
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 5px;
   display: inline;
   color: inherit;  /* Inherits text color from parent */
   text-decoration: none; /* Removes underline */
+  font-weight: 900;
 }
+
 .main-line {
   display:block;
   margin-top:0;
@@ -52,6 +47,6 @@ a {
   color: rgb(255, 186, 247); /* Visible on hover */
 }
 
-.main-stuff {
+.main-page-main-stuff {
   margin-top: 240px;
 }
