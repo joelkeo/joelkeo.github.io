@@ -31,6 +31,8 @@ a {
   margin-top: 0;
   margin-bottom: 5px;
   display: inline;
+  color: inherit;  /* Inherits text color from parent */
+  text-decoration: none; /* Removes underline */
 }
 .main-line {
   display:block;
