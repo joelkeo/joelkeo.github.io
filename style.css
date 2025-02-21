@@ -132,3 +132,18 @@ hr {
 .topic-section p {
   font-size: 20px;
 }
+
+#output {
+  width: 30%;
+  height: 300px;  /* Fixed height */
+  overflow: auto; /* Scrollbar when full */
+  white-space: pre; /* Keeps the ASCII format */
+  padding: 10px;
+
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE/Edge */
+}
+
+#output::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari */
+}
