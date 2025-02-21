@@ -29,6 +29,10 @@ body {
   font-weight: 900;
 }
 
+.main-page-main-stuff h2 {
+  color: var(--main-color);
+}
+
 .main-line {
   display:block;
   margin-top:0;
