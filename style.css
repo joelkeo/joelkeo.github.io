@@ -1,5 +1,5 @@
 :root {
-  --main-color: rgb(255, 128, 251);
+  --main-color: rgb(255, 156, 231);
   --n1: rgb(125, 50, 121);
   --p1: rgb(145, 79, 156);
 }
@@ -53,4 +53,82 @@ body {
 
 .main-page-main-stuff {
   margin-top: 240px;
+}
+
+.main-image {
+  width: 63%;
+}
+
+.product-title {
+  font-size: 110px;
+  margin: 0;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  height: 100vh;
+  flex-direction: column;   
+}
+
+.secondary-flex {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  margin-auto;
+  width: 100%;
+}
+
+.center-box {
+  text-align: center;
+}
+
+.navbar {
+  background-color: var(--main-color);
+  border-bottom: 3px solid var(--n1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a, p {
+  margin: 5px;
+  font-size: 30px;
+  font-weight: 50;
+  display: inline;
+}
+
+.navbar a:hover {
+  color: var(--p1);
+}
+
+.youtube {
+  width: 63%;
+  aspect-ratio: 16/9;
+}
+
+hr {
+  background-color: var(--p1);
+  width: 63%;
+  border: 0;
+  height: 2px;
+  margin-top: 50px;
+  margin-bottom: 0; 
+}
+
+.topic-section {
+  text-align:center;
+  width: 63%;
+}
+
+.topic-section h2 {
+  font-size: 60px;
+}
+
+.topic-section p {
+  font-size: 20px;
 }
