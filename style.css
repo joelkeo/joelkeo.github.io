@@ -51,6 +51,7 @@ body {
 .main-line:hover {
   color: rgb(255, 186, 247) !important;
   text-decoration-color: rgb(255, 186, 247)
+  font-style: oblique;
 }
 
 .main-line:hover .arrow {
@@ -114,8 +115,9 @@ body {
 }
 
 .youtube {
-  width: 63%;
+  width: 100%;
   aspect-ratio: 16/9;
+  border: 2px solid var(--n1);
 }
 
 hr {
@@ -176,6 +178,7 @@ hr {
 }
 
 .left-column {
+  display:flex;
   margin:0;
   float: left;
   width: 49.9%;
@@ -186,6 +189,7 @@ hr {
 }
 
 .right-column {
+  display:flex;
   margin:0;
   float: right;
   width: 49.9%;
@@ -194,4 +198,10 @@ hr {
   padding-left: 20px;
   flex: 1;
   align-items: center;
+}
+
+.subtitle {
+  margin: 0;
+  display: block;
+  width: 100%;
 }
