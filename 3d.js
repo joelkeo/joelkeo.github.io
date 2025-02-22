@@ -37,8 +37,17 @@ function render(ts) {
     // Select the output element on the page
     const outputElement = document.getElementById('output');
     
+  // Create a new line
+    const newLine = document.createElement("div");
+    newLine.textContent = l.join("");
+    outputElement.appendChild(newLine);
+
+    while (outputElement.children.length > 100) {
+        outputElement.removeChild(outputElement.firstChild);
+    }
+
+
     // Append the new output to the output element
-    outputElement.textContent += l.join("") + "\n";
     outputElement.scrollTop = outputElement.scrollHeight; // Scroll to bottom
 }
 

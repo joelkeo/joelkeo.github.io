@@ -5,28 +5,28 @@
 }
 
 body {
-    font-family: Monaco, monospace;
-    background-color: var(--main-color);
-    color: rgb(156, 34, 152);
+  font-family: Monaco, monospace;
+  background-color: var(--main-color);
+  color: rgb(156, 34, 152);
 }
 
 .title {
   text-decoration: underline;
   text-decoration-color: var(--n1);
   text-decoration-thickness: 4px;
-  font-size: 130px;
+  font-size: clamp(16px, 9vw, 500px);
   color: var(--p1);
   margin-bottom: 0;
 }
 
 .main-page-main-stuff h2, a {
-  font-size: 50px;
+  font-size: 80px;
   margin-top: 0;
   margin-bottom: 5px;
   display: inline;
   color: inherit;  /* Inherits text color from parent */
   text-decoration: none; /* Removes underline */
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .main-page-main-stuff h2 {
@@ -134,16 +134,29 @@ hr {
 }
 
 #output {
-  width: 30%;
-  height: 300px;  /* Fixed height */
+  width: 100%;
+  height: 100vh;
   overflow: auto; /* Scrollbar when full */
   white-space: pre; /* Keeps the ASCII format */
   padding: 10px;
-
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For IE/Edge */
 }
 
 #output::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari */
+  display: none; /* For Chrome, Safari */
 }
+
+.main-page-left {
+  float: left;
+  width: 53%;
+}
+
+.main-page-right {
+  float: left;
+  width: 30%;
+}
+
+
+
+
