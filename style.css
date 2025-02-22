@@ -20,13 +20,18 @@ body {
 }
 
 .main-page-main-stuff h2, a {
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 0;
   margin-bottom: 5px;
+  margin-right: 20px;
   display: inline;
   color: inherit;  /* Inherits text color from parent */
   text-decoration: none; /* Removes underline */
-  font-weight: 400;
+  font-weight: 300;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-color: var(--n1);
+  text-decoration-thickness: 2px;
 }
 
 .main-page-main-stuff h2 {
@@ -45,6 +50,7 @@ body {
 
 .main-line:hover {
   color: rgb(255, 186, 247) !important;
+  text-decoration-color: rgb(255, 186, 247)
 }
 
 .main-line:hover .arrow {
@@ -100,6 +106,7 @@ body {
   font-size: 30px;
   font-weight: 50;
   display: inline;
+  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -150,13 +157,41 @@ hr {
 .main-page-left {
   float: left;
   width: 53%;
+  text-align: right;
+  border-right: solid 2px var(--n1);
+  margin-top: 0px;
 }
 
 .main-page-right {
   float: left;
-  width: 30%;
+  width: 40%;
 }
 
+.main-page-sections {
+  margin-top: 0px;
+}
 
+.two-columns {
+  display: flex;
+}
 
+.left-column {
+  margin:0;
+  float: left;
+  width: 49.9%;
+  text-align: right;
+  padding-right: 20px;
+  flex: 1;
+  align-items: center;
+}
 
+.right-column {
+  margin:0;
+  float: right;
+  width: 49.9%;
+  text-align: left;
+  border-left: solid 1px var(--n1);
+  padding-left: 20px;
+  flex: 1;
+  align-items: center;
+}
