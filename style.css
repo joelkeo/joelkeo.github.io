@@ -50,8 +50,8 @@ body {
 
 .main-line:hover {
   color: rgb(255, 186, 247) !important;
-  text-decoration-color: rgb(255, 186, 247)
-  font-style: oblique;
+  text-decoration-color: rgb(255, 186, 247);
+  font-style: italic !important;
 }
 
 .main-line:hover .arrow {
@@ -204,4 +204,41 @@ hr {
   margin: 0;
   display: block;
   width: 100%;
+}
+
+svg {
+  fill: var(--n1);
+  width: 14%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+svg:hover {
+  fill: var(--p1);
+}
+
+.icons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.about {
+  width: 63%;
+  text-align: justify;
+}
+
+.centered {
+  text-align: centered;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--p1);
 }
