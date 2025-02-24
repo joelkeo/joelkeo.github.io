@@ -235,10 +235,21 @@ svg:hover {
   text-align: centered;
 }
 
-.link {
+.coming-soon {
   text-decoration: none;
+  text-align: center;
+  font-size: 20px;
 }
 
-.link:hover {
+.coming-soon:hover {
   color: var(--p1);
+}
+#emojicons {
+ font-size: 8rem;
+ padding: 20px;
+ text-align: center;
+}
+
+.margin-left {
+  margin-left: 25px !important;
 }

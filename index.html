@@ -46,6 +46,25 @@ Further down you'll see the content that displays in the page
 </div>
 </div>  
   
+<!-- AUDIO SECTION -->
+<audio id = "sfx1" src = "soundFX1.wav">
+
+
+<script>
+    const sound = document.getElementById("sfx1");
+
+    document.querySelectorAll("a").forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            sound.currentTime = 0; // Rewind to start
+            sound.play();
+        });
+    });
+</script>
+
+
+
+
+
 </body>
 </html>
 

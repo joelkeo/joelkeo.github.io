@@ -8,13 +8,20 @@
 
 </head>
 <body>
+<!-- AUDIO SECTION --------------->
+<audio id="pageLoadSound" src="sfx2.wav"></audio>
+<script>
+  window.addEventListener("load", () => {
+    document.getElementById("pageLoadSound").play();
+  });
+</script>
 <!-- ----------------------------------------- NAVBAR -->
 <div class = "navbar">
-<a href = "index.html"> home </a>
+<a class = "margin-left" href = "index.html"> home </a>
 <p> | </p> 
 <a href = "grainferno.html"> grainferno </a> 
 <p> | </p>
-<a href = "intertia.html"> inertia </a>
+<a href = "inertia.html"> inertia </a>
 <p> | </p> 
 <a href = "about.html"> about </a>
 <p> | </p>
@@ -59,7 +66,7 @@ allowfullscreen>
 <iframe class = "youtube" src="https://www.youtube.com/embed/qksgiJaZbPI?si=heazL8DnuJM7VAPy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <div class = "right-column">
-<p> Grainferno offers a completely novel approach to granular synthesis: "tonal" granular synthesis. Create arbitrarily small grains, with grain rates implicitly linked to the note being played. So, with grainferno, you create traditional granular sounds, and physical modelling-esque tones, and anything in between. difficult to explain, easy to hear.  </p>
+<p> Grainferno offers a completely novel approach to granular synthesis: "tonal" granular synthesis. Create arbitrarily small grains, with grain rates implicitly linked to the note being played. So, with grainferno, you create traditional granular sounds, and physical modelling-esque tones, and anything in between. difficult to explain, easy to hear. Implemented in low-level C++ for maximum efficiency. </p>
 </div>
 </div>
 </div>
@@ -76,4 +83,5 @@ allowfullscreen>
 
 </div>
 </div>
+
 </body>
