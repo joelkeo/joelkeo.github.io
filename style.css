@@ -236,7 +236,7 @@ svg:hover {
 }
 
 .coming-soon {
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
   font-size: 20px;
 }
